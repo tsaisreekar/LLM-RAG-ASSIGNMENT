@@ -1,0 +1,10 @@
+python-dotenv
+flask
+requests
+streamlit
+beautifulsoup4
+google-api-python-client 
+openai==0.28
+transformers
+torch
+huggingface_hub
