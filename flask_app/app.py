@@ -4,13 +4,13 @@ from transformers import pipeline
 
 app = Flask(__name__)
 
-# Your API keys
+# API keys
 my_api_key = "AIzaSyBoU47872vZXsxg5GadNgr001SALhlgizU"
 my_cse_id = "24defbbbae93e459d"
-huggingface_api_key = "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"  # Replace with your Hugging Face API key
+huggingface_api_key = "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"  #Hugging Face API key
 
-# Initialize Hugging Face model (GPT-2 for example)
-generator = pipeline('text-generation', model='gpt2', device=0)  # Use device=-1 for CPU, 0 for GPU
+# Initialize Hugging Face model (GPT-2)
+generator = pipeline('text-generation', model='gpt2', device=0)  
 
 # Route for the home page (root URL)
 @app.route('/')
