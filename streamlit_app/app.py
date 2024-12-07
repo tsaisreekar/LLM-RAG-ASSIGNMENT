@@ -1,7 +1,6 @@
 import streamlit as st
 import requests
 
-# Streamlit UI
 st.title("RAG LLM System")
 st.write("Ask a question, and the system will search the internet and provide an AI-generated answer!")
 
